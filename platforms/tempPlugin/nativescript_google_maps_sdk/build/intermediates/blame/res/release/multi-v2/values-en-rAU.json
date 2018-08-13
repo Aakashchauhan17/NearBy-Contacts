@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/build/intermediates/res/merged/release/values-en-rAU/values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "/Users/aakash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/136b0b1b79d5db4f23e19b6c68d6aa7d/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rAU/values-en-rAU.xml",
+            "map": [
+                {
+                    "source": "/Users/aakash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/136b0b1b79d5db4f23e19b6c68d6aa7d/res/values-en-rAU/values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

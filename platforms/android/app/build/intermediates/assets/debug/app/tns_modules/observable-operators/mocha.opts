@@ -1,0 +1,4 @@
+--require mocha-clean
+--require babel-register
+--require babel-polyfill
+--require testSetup

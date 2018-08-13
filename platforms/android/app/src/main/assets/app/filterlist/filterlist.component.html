@@ -1,0 +1,28 @@
+<ActionBar title="Your Location Aware Contacts" class="action-bar">
+</ActionBar>
+
+<!-- <ScrollView class="page">
+		<ListView [items]="LocationAwareList" class="list-group" >
+				<ng-template let-listContact="item" let-i="index" let-odd="odd" let-even="even">
+					<StackLayout orientation="vertical">
+						<Button [text]="listContact" (tap)="onTap(listContact.city)"></Button>
+						<Label text="Email:" width=auto height=auto ></Label>
+    					<Label text="Phone:" width=auto height=auto ></Label>
+					</StackLayout>
+				</ng-template>
+			</ListView>
+</ScrollView> -->
+<ScrollView class="page">
+	<StackLayout marginTop="65", marginLeft="10">
+		<!-- On Android the card view plugin requires adding an external library
+			therefore it can't be demoed on Playground. You will have to download this project
+			and build it locally to try it on Android -->
+		<CardView *ngFor="let item of LocationAwareList" class="card" elevation="40" radius="10" ios:shadowRadius="3">
+			<StackLayout class="card-layout">
+				<Label class="h2" [text]="item.heading", color="steelblue"></Label>
+				<Label class="h3" textWrap="true" [text]="item.content"></Label>
+				<Label class="h3" textWrap="true" [text]="item.content1"></Label>
+			</StackLayout>
+		</CardView>
+	</StackLayout>
+</ScrollView>

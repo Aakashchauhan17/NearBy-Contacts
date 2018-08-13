@@ -1,0 +1,63 @@
+{
+  "_from": "kinvey-nativescript-sdk",
+  "_id": "kinvey-nativescript-sdk@3.11.4",
+  "_inBundle": false,
+  "_integrity": "sha512-2aQJ1gq3G3YIoyYY3Yc2x8h3/4iAvCoC8awm5M1ZY90wD0Po5aBap0oxfvwfPcZTfY8aFVKO0y/tYe4r5W893Q==",
+  "_location": "/kinvey-nativescript-sdk",
+  "_phantomChildren": {
+    "symbol-observable": "1.0.1"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "kinvey-nativescript-sdk",
+    "name": "kinvey-nativescript-sdk",
+    "escapedName": "kinvey-nativescript-sdk",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/kinvey-nativescript-sdk/-/kinvey-nativescript-sdk-3.11.4.tgz",
+  "_shasum": "eb9927debc52ffd056b46f6d0e81eefc44cc9944",
+  "_spec": "kinvey-nativescript-sdk",
+  "_where": "/Users/aakash/Documents/Project/Native",
+  "author": {
+    "name": "Kinvey, Inc."
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "nativescript-sqlite": "~1.1.11",
+    "rxjs": "~5.5.5"
+  },
+  "deprecated": false,
+  "description": "Kinvey NativeScript SDK for developing NativeScript applications.",
+  "files": [
+    "file-upload-worker-android.js",
+    "kinvey-nativescript-sdk.ios.js",
+    "kinvey-nativescript-sdk.ios.js.map",
+    "kinvey-nativescript-sdk.android.js",
+    "kinvey-nativescript-sdk.android.js.map",
+    "push.android.js",
+    "push.ios.js",
+    "kinvey.d.ts",
+    "platforms/android/include.gradle",
+    "platforms/ios/Podfile",
+    "platforms/ios/app.entitlements"
+  ],
+  "homepage": "http://www.kinvey.com",
+  "license": "Apache-2.0",
+  "main": "kinvey-nativescript-sdk.js",
+  "name": "kinvey-nativescript-sdk",
+  "nativescript": {
+    "platforms": {
+      "ios": "3.0.0",
+      "android": "3.0.0"
+    }
+  },
+  "typings": "kinvey.d.ts",
+  "version": "3.11.4"
+}

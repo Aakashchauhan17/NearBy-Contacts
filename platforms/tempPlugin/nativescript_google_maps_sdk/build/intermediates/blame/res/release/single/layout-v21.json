@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/aakash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/136b0b1b79d5db4f23e19b6c68d6aa7d/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/aakash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/136b0b1b79d5db4f23e19b6c68d6aa7d/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/aakash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/136b0b1b79d5db4f23e19b6c68d6aa7d/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/aakash/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/136b0b1b79d5db4f23e19b6c68d6aa7d/res/layout-v21/notification_template_custom_big.xml"
+    }
+]

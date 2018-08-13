@@ -1,0 +1,39 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:1-5:12
+INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:1-5:12
+	package
+		ADDED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:70-118
+		INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:1-5:12
+		INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:1-5:12
+		INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:3:3-76
+	android:name
+		ADDED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:3:20-74
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:4:3-95
+	android:name
+		ADDED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml:4:20-93
+uses-sdk
+INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml
+INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml
+		ADDED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml
+		INJECTED from /Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/AndroidManifest.xml

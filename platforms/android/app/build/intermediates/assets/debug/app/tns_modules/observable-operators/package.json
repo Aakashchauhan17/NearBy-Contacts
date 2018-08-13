@@ -1,0 +1,107 @@
+{
+  "_from": "observable-operators@1.7.3",
+  "_id": "observable-operators@1.7.3",
+  "_inBundle": false,
+  "_integrity": "sha1-khwRT9A0mwpQikpSvmakDhluDIY=",
+  "_location": "/observable-operators",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "observable-operators@1.7.3",
+    "name": "observable-operators",
+    "escapedName": "observable-operators",
+    "rawSpec": "1.7.3",
+    "saveSpec": null,
+    "fetchSpec": "1.7.3"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/observable-operators/-/observable-operators-1.7.3.tgz",
+  "_shasum": "921c114fd0349b0a508a4a52be66a40e196e0c86",
+  "_spec": "observable-operators@1.7.3",
+  "_where": "/Users/aakash/Documents/Project/Native",
+  "author": {
+    "name": "Noah Muldavin",
+    "email": "nmuldavin@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/nmuldavin/ObservableOperators/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A library of Reactive Operators built with ECMAScript Observables from the ground up.",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "documentation": "^6.3.2",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "husky": "^0.14.3",
+    "jsdom": "^11.9.0",
+    "lint-staged": "^7.0.5",
+    "mocha": "^5.1.1",
+    "mocha-clean": "^1.0.0",
+    "nyc": "^11.7.1",
+    "prettier": "^1.12.1",
+    "sinon": "^4.5.0",
+    "sinon-chai": "^3.0.0",
+    "zen-observable": "^0.8.8"
+  },
+  "homepage": "https://nmuldavin.github.io/ObservableOperators",
+  "keywords": [
+    "observable",
+    "observables",
+    "reactive",
+    "reactive operators",
+    "reactive programming",
+    "reactive streams",
+    "stream",
+    "streams",
+    "event stream",
+    "promise",
+    "promises"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "prettier --single-quote --trailing-comma=all --write",
+      "git add"
+    ]
+  },
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "name": "observable-operators",
+  "nyc": {
+    "include": [
+      "src/**/*.js"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nmuldavin/ObservableOperators.git"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "docs": "documentation build src/** -f html -o docs -g",
+    "format": "eslint --fix src test && prettier --single-quote --trailing-comma=all --write --list-different '{src,test}/**/*.js'",
+    "lint": "eslint src test",
+    "precommit": "lint-staged",
+    "prepublish": "yarn build && yarn docs",
+    "test": "mocha --opts ./mocha.opts",
+    "test:coverage": "nyc --reporter=lcov --reporter=text mocha --opts ./mocha.opts"
+  },
+  "version": "1.7.3"
+}

@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+// this import should be first in order to load some required settings (like globals and reflect-metadata)
+var platform_1 = require("nativescript-angular/platform");
+// const Kinvey = require('kinvey-nativescript-sdk');
+// Kinvey.init({
+//     appKey: "kid_HkXB1x-XQ",
+//     appSecret: "311020ed9d26404aaf0e932cad204b03",
+// });
+var app_module_1 = require("~/app.module");
+platform_1.platformNativeScriptDynamic().bootstrapModule(app_module_1.AppModule);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm1haW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSwwR0FBMEc7QUFDMUcsMERBQTRFO0FBQzVFLHFEQUFxRDtBQUNyRCxnQkFBZ0I7QUFDaEIsK0JBQStCO0FBQy9CLHFEQUFxRDtBQUNyRCxNQUFNO0FBRU4sMkNBQXlDO0FBRXpDLHNDQUEyQixFQUFFLENBQUMsZUFBZSxDQUFDLHNCQUFTLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8vIHRoaXMgaW1wb3J0IHNob3VsZCBiZSBmaXJzdCBpbiBvcmRlciB0byBsb2FkIHNvbWUgcmVxdWlyZWQgc2V0dGluZ3MgKGxpa2UgZ2xvYmFscyBhbmQgcmVmbGVjdC1tZXRhZGF0YSlcbmltcG9ydCB7IHBsYXRmb3JtTmF0aXZlU2NyaXB0RHluYW1pYyB9IGZyb20gXCJuYXRpdmVzY3JpcHQtYW5ndWxhci9wbGF0Zm9ybVwiO1xuLy8gY29uc3QgS2ludmV5ID0gcmVxdWlyZSgna2ludmV5LW5hdGl2ZXNjcmlwdC1zZGsnKTtcbi8vIEtpbnZleS5pbml0KHtcbi8vICAgICBhcHBLZXk6IFwia2lkX0hrWEIxeC1YUVwiLFxuLy8gICAgIGFwcFNlY3JldDogXCIzMTEwMjBlZDlkMjY0MDRhYWYwZTkzMmNhZDIwNGIwM1wiLFxuLy8gfSk7XG5cbmltcG9ydCB7IEFwcE1vZHVsZSB9IGZyb20gXCJ+L2FwcC5tb2R1bGVcIjtcblxucGxhdGZvcm1OYXRpdmVTY3JpcHREeW5hbWljKCkuYm9vdHN0cmFwTW9kdWxlKEFwcE1vZHVsZSk7XG4iXX0=

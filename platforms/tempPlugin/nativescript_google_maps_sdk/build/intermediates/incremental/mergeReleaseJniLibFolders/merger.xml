@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/aakash/Documents/Project/Native/platforms/tempPlugin/nativescript_google_maps_sdk/src/release/jniLibs"/></dataSet></merger>

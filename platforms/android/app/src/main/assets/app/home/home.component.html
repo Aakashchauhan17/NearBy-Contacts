@@ -1,0 +1,32 @@
+<!-- <ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Contacts"></Label>
+</ActionBar>  
+<GridLayout class="page">
+        
+        <ListView [items]="contactList" class="list-group">
+                <ng-template let-country="item" let-i="index" let-odd="odd" let-even="even">
+                    <GridLayout class="list-group-item">
+                        <Label [text]="country.Name"></Label>
+                    </GridLayout>
+                </ng-template>
+            </ListView>
+  
+</GridLayout> -->
+<StackLayout>
+        <router-outlet>
+            <StackLayout>
+                <Button text="Filter Contacts By Location" (tap)="clicked()" routerLink="./filterlist"></Button>
+            </StackLayout>
+        </router-outlet>
+        <GridLayout class="page">
+        
+                <ListView [items]="contactList" class="list-group">
+                        <ng-template let-country="item" let-i="index" let-odd="odd" let-even="even">
+                            <GridLayout class="list-group-item">
+                                <Label [text]="country.Name"></Label>
+                            </GridLayout>
+                        </ng-template>
+                    </ListView>
+          
+        </GridLayout>
+</StackLayout>
